@@ -22,3 +22,15 @@ jobs:
       run: |
         make install
 
+    - name: Install lint
+      run: |
+        make lint
+
+    - name: Test
+      run: |
+        make test
+
+    - name: Format
+      run: |
+        make format
+        
